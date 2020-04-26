@@ -41,7 +41,7 @@ library(shiny)
 library(plotly)
 
 # read data
-airbnb <- read.csv("../NYC_2019.csv", header=T)
+airbnb <- read.csv("NYC_2019.csv", header=T)
 
 # explore data via dplyr
 glimpse(airbnb)
@@ -92,7 +92,7 @@ server <- function(input, output) {
   ###-------------------------------------------------------------------------
   
   # read data
-  airbnb <- read.csv("../NYC_2019.csv", header=T)
+  airbnb <- read.csv("NYC_2019.csv", header=T)
   
   # rename columns for clarity during rule analysis
   names(airbnb) <- c("id",           #listing id
@@ -285,8 +285,8 @@ runApp(hotel_app, display.mode = "showcase")
 
 # must manually run by removing "reactive" brackets for rent_rules
 # otherwise, is cannot be saved as it is dynamically loaded by Shiny
-save(airbnb, airbnb_slim, rent_rules,rent_trans, 
-     ui, server, dlabels5, dlabels7, dlabels3, dlabelsd,
-     price_breaks,borough_breaks, neighb_breaks, 
-     minn_breaks, host_breaks, avail_breaks, hotel_app,
-     file = "hitt-final-data.RData")
+#save(airbnb, airbnb_slim, rent_rules,rent_trans, 
+#     ui, server, dlabels5, dlabels7, dlabels3, dlabelsd,
+#     price_breaks,borough_breaks, neighb_breaks, 
+#     minn_breaks, host_breaks, avail_breaks, hotel_app,
+#     file = "hitt-final-data.RData")
