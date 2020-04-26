@@ -278,7 +278,7 @@ server <- function(input, output) {
 
 # run application
 hotel_app <- shinyApp(ui = ui, server = server)
-runApp(hotel_app, display.mode = "showcase")
+#runApp(hotel_app, display.mode = "showcase")
 
 
 # save RData file
