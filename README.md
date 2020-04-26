@@ -10,3 +10,9 @@ if (interactive()) {
   runUrl('https://github.com/repneuable/lis4761/archive/master.tar.gz')
 }
 ```
+
+## Video Presentation
+https://www.youtube.com/watch?v=nQdS1mG1Dbc
+
+## Shinyapps.io
+https://repneuable.shinyapps.io/shiny_holder/
