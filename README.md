@@ -1,4 +1,4 @@
-# LIS 4761 - Intro to Data Mining
+# LIS 4761 - Intro to Data/Text Mining
 ## Final Project - Interactive Association Rules Mining in Shiny
 ### Kevin Hitt, April 2020
 
