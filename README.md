@@ -2,7 +2,7 @@
 ## Final Project - Interactive Association Rules Mining in Shiny
 ### Kevin Hitt, April 2020
 
-To run this interactive Shiny app, enter the below code into your R console:
+To run this interactive Shiny app, enter the below code into your R console or use the last link listed on the page:
 
 ```
 library(shiny)
